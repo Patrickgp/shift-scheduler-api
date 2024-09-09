@@ -1,3 +1,4 @@
+import "dotenv/config";
 import express from "express";
 import apiRoutes from "./routes/apiRoutes";
 import connectDB from "./config/mongoose";
